@@ -449,6 +449,3 @@ footer p{color:var(--ink-soft);font-size:15px;margin-bottom:22px;}
   #toTop{width:42px;height:42px;bottom:18px;left:18px;}
 }
 html{overflow-x:hidden;}
-*{
-    outline:1px solid red;
-}
