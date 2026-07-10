@@ -407,18 +407,27 @@ footer p{color:var(--ink-soft);font-size:15px;margin-bottom:22px;}
 @media(max-width:640px){
 
 
-    .nav-inner{
-        flex-direction:column;
-        height:auto;
-        padding:12px 0;
-        gap:12px;
-    }
+   .nav-inner{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:auto;
+    padding:12px 0;
+    gap:12px;
+    width:100%;
+}
 
     .nav-links{
-        justify-content:center;
-        gap:16px;
-        flex-wrap:wrap;
-    }
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:12px;
+    width:100%;
+}
+    .topnav{
+    width:100%;
+}
 
 
   .wrap{padding:0 20px;}
@@ -441,4 +450,7 @@ footer p{color:var(--ink-soft);font-size:15px;margin-bottom:22px;}
 }
 *{
     outline:1px solid red;
+}
+html {
+    -webkit-text-size-adjust: 100%;
 }
